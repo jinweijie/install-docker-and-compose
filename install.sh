@@ -16,10 +16,10 @@ rm get-docker.sh
 
 echo "Docker installed."
 
-mkdir -p ~/.docker/cli-plugins/
+mkdir -p /usr/lib/docker/cli-plugins/
 
-curl -SL https://github.com/docker/compose/releases/download/$COMPOSE_LATEST_VERSION/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
+curl -SL https://github.com/docker/compose/releases/download/$COMPOSE_LATEST_VERSION/docker-compose-linux-x86_64 -o /usr/lib/docker/cli-plugins/docker-compose
 
-chmod +x ~/.docker/cli-plugins/docker-compose
+chmod +x /usr/lib/docker/cli-plugins/docker-compose
 
 echo "All done, you can use docker -v && docker compose version to verify the installation."
