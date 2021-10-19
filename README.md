@@ -11,3 +11,9 @@ This script will install docker and the docker compose plugin (the replacement f
 2. Make the `install.sh` executable by running `chmod +x install.sh`.
 3. Execute the script by running `./install.sh`
 4. Run `docker -v && docker compose version` to verify the installation.
+
+## Donate
+
+If you would like to support my development, feel free to buy me a coffee, it makes a big difference! Thanks.
+
+<a href="https://www.buymeacoffee.com/jinweijie" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee"></a>
